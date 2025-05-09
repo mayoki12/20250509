@@ -1,0 +1,3674 @@
+/* html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
+    display: block
+}
+
+audio,canvas,progress,video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+progress {
+    vertical-align: baseline
+}
+
+template,[hidden] {
+    display: none
+}
+
+a {
+    background-color: rgba(0,0,0,0);
+    -webkit-text-decoration-skip: objects
+}
+
+a:active,a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: inherit
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+code,kbd,pre,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button,input,select,textarea {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button,input {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html [type=button],[type=reset],[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+html {
+    font-size: 10px
+}
+
+#renew td,#renew th,#renew input,#renew textarea,#renew li,#renew p,#renew span,#renew a {
+    color: #000;
+    font-family: "Swiss 721","Gothic Medium BBB","source-han-sans-japanese","メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    font-style: normal;
+    font-feature-settings: "palt"
+}
+
+#renew {
+    overflow-wrap: break-word;
+    color: #000;
+    font-family: "Swiss 721","Gothic Medium BBB","source-han-sans-japanese","メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    font-feature-settings: "palt";
+    position: relative;
+    opacity: 0
+}
+
+#renew.read {
+    opacity: 1
+}
+
+#renew a,#renew a:link,#renew a:visited,#renew a:active,#renew a:hover,#renew a:hover img {
+    color: #000;
+    text-decoration: none
+}
+
+#renew a:hover {
+    text-decoration: none
+}
+
+#renew img {
+    vertical-align: bottom
+}
+
+#renew .img_ck {
+    font-size: .1rem;
+    line-height: 0
+}
+
+#renew .clearfix:before,#renew .clearfix:after {
+    content: " ";
+    display: table
+}
+
+#renew .clearfix:after {
+    clear: both
+}
+
+#renew .clearfix {
+    zoom: 1;
+}
+
+#renew h1,#renew h2,#renew h3,#renew h4,#renew h5,#renew h6,#renew div,#renew p,#renew ul,#renew ol,#renew li,#renew dl,#renew dt,#renew dd,#renew img,#renew nav {
+    margin: 0;
+    padding: 0
+}
+
+#renew ul,#renew ol,#renew li {
+    list-style: none
+}
+
+#renew h1,#renew h2,#renew h3,#renew h4,#renew h5,#renew h6 {
+    color: #000
+} */
+
+@media screen and (min-width: 769px),print {
+    #renew .pc {
+        display:block
+    }
+
+    #renew .sp {
+        display: none
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew {
+        font-size:4vw
+    }
+
+    #renew td,#renew th,#renew input,#renew textarea,#renew li,#renew p,#renew span,#renew a {
+        font-size: 4vw
+    }
+
+    #renew .sp {
+        display: block
+    }
+
+    #renew .pc {
+        display: none
+    }
+}
+
+#renew header {
+    background-color: #fff
+}
+
+#renew header .inner {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box
+}
+
+#renew header .inner h1 {
+    line-height: 1;
+    font-size: 0
+}
+
+#renew header .inner h1 img {
+    vertical-align: middle
+}
+
+#renew header .links {
+    display: flex
+}
+
+#renew header .links a {
+    text-decoration: none;
+    color: #ea0000
+}
+
+@media screen and (min-width: 769px),print {
+    #renew header .inner {
+        padding:10px 38px
+    }
+
+    #renew header .inner h1 img {
+        height: 75px
+    }
+
+    #renew header .inner .links {
+        margin-left: 38px
+    }
+
+    #renew header .inner .links li+li {
+        margin-left: 20px
+    }
+
+    #renew header .inner .links li a {
+        font-size: 1.9rem;
+        border-radius: 20px;
+        padding: 6px 1.6vw 8px;
+        transition: background-color .3s ease,color .3s ease
+    }
+
+    #renew header .inner .links li a:hover {
+        background-color: #ea0000;
+        color: #fff
+    }
+
+    #renew header .inner .links li.current {
+        position: relative
+    }
+
+    #renew header .inner .links li.current:before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #ea0000;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: -16px
+    }
+}
+
+@media screen and (min-width: 1320px),print {
+    #renew header .inner .links {
+        margin-left:17%
+    }
+}
+
+@media screen and (min-width: 1025px)and (max-width: 1319px),print {
+    #renew header .inner .links {
+        margin-left:10%
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew header .inner .links li+li {
+        margin-left:1.06435vw
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew header {
+        width:100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000000;
+        padding: 0 4.53333vw
+    }
+
+    #renew header .inner {
+        justify-content: flex-start;
+        align-items: center;
+        height: 16vw
+    }
+
+    #renew header h1 {
+        line-height: 1
+    }
+
+    #renew header h1 img {
+        width: 32vw;
+        height: 14vw
+    }
+
+    #renew header .links {
+        display: none
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 960px) {
+    #renew header .links {
+        margin-right:300px;
+        flex-wrap: wrap
+    }
+
+    #renew header .inner .links li+li {
+        margin-left: 0
+    }
+}
+
+#renew .nav_btn {
+    z-index: 101
+}
+
+#renew .nav_btn #nav_open span.nav3line:nth-of-type(1),#renew .nav_btn #nav_open span.nav3line:nth-of-type(2),#renew .nav_btn #nav_open span.nav3line:nth-of-type(3) {
+    display: block;
+    background-color: #ea0000;
+    transition: transform .3s ease
+}
+
+#renew .nav_btn #nav_close span:before,#renew .nav_btn #nav_close span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #ea0000;
+    transition: transform .3s ease
+}
+
+#renew .nav_btn #nav_close span:before {
+    transform: rotate(-45deg)
+}
+
+#renew .nav_btn #nav_close span:after {
+    transform: rotate(45deg)
+}
+
+#renew .nav_btn>a {
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    z-index: 101
+}
+
+#renew .nav_btn>a span {
+    color: #ea0000;
+    text-align: center;
+    position: absolute
+}
+
+#renew .nav_btn.static {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 92%;
+    margin: 0 auto;
+    pointer-events: none
+}
+
+#renew .nav_btn.static a {
+    pointer-events: auto
+}
+
+#renew .nav_btn.static.active {
+    display: none
+}
+
+#renew .menu {
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000003;
+    display: none
+}
+
+#renew .menu_inner {
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+    box-sizing: border-box
+}
+
+#renew .menu_center dl a {
+    display: block
+}
+
+#renew .menu .bottom_bnr {
+    background-color: #db0025
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .nav_btn {
+        position:relative;
+        margin: 0 auto;
+        height: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 1360px;
+        width: 92%;
+        pointer-events: none
+    }
+
+    #renew .nav_btn .nav_trigger,#renew .nav_btn .nav_member {
+        margin-left: 20px
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(1),#renew nav .nav_btn #nav_open span.nav3line:nth-of-type(2),#renew nav .nav_btn #nav_open span.nav3line:nth-of-type(3) {
+        width: 26px;
+        display: block;
+        height: 2.5px;
+        bottom: 60px;
+        left: 0;
+        right: 0;
+        margin: auto
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(1) {
+        bottom: 52px
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(2) {
+        bottom: 44px
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(3) {
+        bottom: 36px
+    }
+
+    #renew .nav_btn #nav_close.nav_trigger span:before,#renew .nav_btn #nav_close.nav_trigger span:after {
+        width: 36px;
+        display: block;
+        height: 2.4px;
+        bottom: 38px;
+        left: 0;
+        right: 0;
+        margin: auto
+    }
+
+    #renew .nav_btn .nav_trigger span:after {
+        bottom: 21px
+    }
+
+    #renew .nav_btn #nav_close span:before,#renew .nav_btn #nav_close span:after {
+        bottom: 28px
+    }
+
+    #renew .nav_btn>a {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        box-sizing: border-box;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1);
+        pointer-events: auto
+    }
+
+    #renew .nav_btn>a:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: none;
+        background-size: cover;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        transition: transform .3s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew .nav_btn>a:hover {
+        transform: scale(1.05)
+    }
+
+    #renew .nav_btn>a:hover:after {
+        transform: rotate(180deg)
+    }
+
+    #renew .nav_btn>a span {
+        bottom: 5px;
+        font-size: 1.1rem;
+        left: 0;
+        right: 0;
+        margin: auto
+    }
+
+    #renew .nav_btn>a.nav_member:before {
+        content: "";
+        display: block;
+        width: 37px;
+        height: 47px;
+        background: url(/assets2/images/nav/icon_login.png) no-repeat left top;
+        background-size: contain;
+        margin-top: 7px
+    }
+
+    #renew .nav_btn>a.nav_entry:before {
+        content: "";
+        display: block;
+        width: 45px;
+        height: 42px;
+        background: url(/assets2/images/nav/icon_entry_20230825.png) no-repeat left top;
+        background-size: contain;
+        margin-top: 10px;
+        margin-left: 5px
+    }
+
+    #renew .menu_inner {
+        height: calc(100% - 90px)
+    }
+
+    #renew .menu_center {
+        max-width: 1320px;
+        width: 92%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-top: -79px
+    }
+
+    #renew .menu_center a {
+        font-size: 1.5rem
+    }
+
+    #renew .menu_row {
+        display: flex;
+        margin-top: 25px;
+        background-color: #fff;
+        padding: 40px 60px;
+        border-radius: 9px;
+        border: solid 2px #dcdcdc
+    }
+
+    #renew .menu .campaign {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto
+    }
+
+    #renew .menu .campaign a {
+        visibility: hidden;
+        border-radius: 30px;
+        display: block;
+        padding: 14px 46px 12px 64px;
+        height: 50px;
+        box-sizing: border-box;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat 42px center #f0f4f7;
+        background-size: 8px 10px;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew .menu .campaign a:hover {
+        transform: scale(1.05)
+    }
+
+    #renew .menu .campaign a+a {
+        margin-left: 10px
+    }
+
+    #renew .menu .campaign a.new {
+        position: relative
+    }
+
+    #renew .menu .campaign a.new:before {
+        content: "NEW";
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: block;
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+        background-color: #41bdd3;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -15px;
+        right: 10px
+    }
+
+    #renew .menu_column {
+        flex: 1;
+        padding: 0 20px
+    }
+
+    #renew .menu_column:first-of-type {
+        padding-left: 0
+    }
+
+    #renew .menu_column:last-of-type {
+        padding-right: 0
+    }
+
+    #renew .menu_column dl {
+        max-width: 270px
+    }
+
+    #renew .menu_column dl dt a,#renew .menu_column dl dd a {
+        padding-left: 34px;
+        position: relative
+    }
+
+    #renew .menu_column dl dt a:before,#renew .menu_column dl dd a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+
+    #renew .menu_column dl dt {
+        padding: 20px 0;
+        border-bottom: 3px solid #dfe8ef
+    }
+
+    #renew .menu_column dl dt a {
+        font-size: 2.3rem;
+        line-height: 1.2;
+        font-family: "Midashi Go MB31"
+    }
+
+    #renew .menu_column dl dt a:before {
+        width: 18px;
+        height: 18px;
+        top: 6px;
+        left: 6px;
+        background: url(/assets/images/nav/white_arrow.svg) no-repeat center center #ce0023;
+        background-size: 7px 10px;
+        border-radius: 50%;
+        transition: background-position .3s ease
+    }
+
+    #renew .menu_column dl dt a:hover:before {
+        background-position: 68% center
+    }
+
+    #renew .menu_column dl dt a.sp {
+        display: none
+    }
+
+    #renew .menu_column dl dd {
+        padding-top: 10px;
+        display: block !important
+    }
+
+    #renew .menu_column dl dd a {
+        margin-top: 12px;
+        line-height: 1.4;
+        transition: color .25s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew .menu_column dl dd a:hover {
+        color: #afc1ce
+    }
+
+    #renew .menu_column dl dd a:before {
+        width: 8px;
+        height: 10px;
+        left: 12px;
+        top: 8px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+        background-size: 100% 100%
+    }
+
+    #renew .menu_column dl+dl {
+        margin-top: 20px
+    }
+
+    #renew .menu .text_link {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center
+    }
+
+    #renew .menu .text_link_group {
+        display: flex;
+        margin-left: 16px
+    }
+
+    #renew .menu .text_link a {
+        display: block;
+        color: #ea0000;
+        font-size: 1.5rem;
+        transition: color .25s cubic-bezier(0.23, 1, 0.58, 1);
+        margin: auto;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .menu .text_link a:hover {
+        color: #afc1ce
+    }
+
+    #renew .menu .text_link a+a {
+        margin-left: 16px
+    }
+
+    #renew .menu .text_link p {
+        color: #ea0000;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        border-left: 3px solid #ea0000;
+        margin-left: 22px;
+        padding-left: 22px
+    }
+
+    #renew .menu .text_link p a {
+        background: none;
+        padding-left: 0;
+        width: 26px;
+        height: auto;
+        margin-left: 10px;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1);
+        display: flex;
+        align-items: center;
+        margin-left: 6px
+    }
+
+    #renew .menu .text_link p a:hover {
+        background: none;
+        transform: scale(1.05)
+    }
+
+    #renew .menu .text_link p a img {
+        width: 100%
+    }
+
+    #renew .menu .text_link_group #sns_text1 {
+        width: 124px
+    }
+
+    #renew .menu .text_link_group #sns_text2 {
+        width: 30px
+    }
+
+    #renew .menu .text_link_group #sns_text3 {
+        width: 30px
+    }
+
+    #renew .menu .text_link_group#sns_text0 img {
+        width: 100%
+    }
+
+    #renew .menu .bnr {
+        margin-top: 22px;
+        padding-bottom: 35px;
+        display: flex;
+        justify-content: center
+    }
+
+    #renew .menu .bnr a {
+        display: none;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew .menu .bnr a:hover {
+        transform: scale(1.05)
+    }
+
+    #renew .menu .bnr a+a {
+        margin-left: 14px
+    }
+
+    #renew .menu .bottom_bnr {
+        padding: 14px 0;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0px 0px 20px rgba(0,0,0,.15)
+    }
+
+    #renew .menu .bottom_bnr a {
+        width: 240px;
+        display: block;
+        background-color: #fff;
+        border-radius: 9px;
+        padding: 18px 0;
+        height: 62px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 1.5rem;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1);
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .menu .bottom_bnr a:hover {
+        transform: scale(1.05)
+    }
+
+    #renew .menu .bottom_bnr a img {
+        width: 45px;
+        vertical-align: middle;
+        margin-right: 6px
+    }
+
+    #renew .menu .bottom_bnr a+a {
+        margin-left: 14px
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew .nav_btn {
+        left:auto;
+        right: 1%
+    }
+
+    #renew .nav_btn .nav_trigger {
+        right: 0
+    }
+
+    #renew .menu_center {
+        width: 100%
+    }
+
+    #renew .menu_center {
+        padding: 5.47945vw 4.10959vw 4.10959vw
+    }
+
+    #renew .menu_center a {
+        font-size: 1.23288vw
+    }
+
+    #renew .menu .campaign a {
+        visibility: hidden;
+        border-radius: 2.05479vw;
+        padding: .9589vw 3.15068vw .82192vw 4.38356vw;
+        height: 4.10959vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat 2.87671vw center #f0f4f7;
+        background-size: .54795vw .68493vw
+    }
+
+    #renew .menu .campaign a.new:before {
+        top: -2.73973vw;
+        right: .68493vw
+    }
+
+    #renew .menu_column {
+        padding: 0 10px
+    }
+
+    #renew .menu_column dl dt a,#renew .menu_column dl dd a {
+        padding-left: 2.32877vw
+    }
+
+    #renew .menu_column dl dt {
+        padding: 1.36986vw 0
+    }
+
+    #renew .menu_column dl dt a {
+        font-size: 1.57534vw;
+        font-family: "Midashi Go MB31"
+    }
+
+    #renew .menu_column dl dt a:before {
+        width: 1.23288vw;
+        height: 1.23288vw;
+        top: .41096vw;
+        left: .41096vw
+    }
+
+    #renew .menu_column dl dd {
+        padding-top: .68493vw
+    }
+
+    #renew .menu_column dl dd a:before {
+        width: .54795vw;
+        height: .68493vw;
+        left: .82192vw;
+        top: .54795vw
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .nav_btn {
+        height:16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        z-index: 1000000
+    }
+
+    #renew .nav_btn .nav_trigger:after {
+        font-size: 1.86667vw;
+        bottom: 1.6vw;
+        left: 6.13333vw
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(1),#renew nav .nav_btn #nav_open span.nav3line:nth-of-type(2),#renew nav .nav_btn #nav_open span.nav3line:nth-of-type(3) {
+        height: .17vh;
+        width: 4.26667vw;
+        position: absolute;
+        right: auto;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 5.06667vw
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(1) {
+        bottom: 10.8vw
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(2) {
+        bottom: 9.4vw
+    }
+
+    #renew nav .nav_btn #nav_open span.nav3line:nth-of-type(3) {
+        bottom: 8vw
+    }
+
+    #renew .nav_btn #nav_close.nav_trigger span:before,#renew .nav_btn #nav_close.nav_trigger span:after {
+        height: .22vh;
+        width: 6.26667vw;
+        position: absolute;
+        right: auto;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 8.06667vw
+    }
+
+    #renew .nav_btn>a {
+        position: relative;
+        height: 15vw;
+        width: 17vw;
+        margin-top: 0;
+        left: auto;
+        z-index: 101;
+        background-size: contain
+    }
+
+    #renew .nav_btn>a span {
+        font-size: 2.6vw;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 1.6vw
+    }
+
+    #renew .nav_btn>a:not(.nav_trigger),#renew .nav_btn>a.nav_member {
+        margin-right: 1.33333vw
+    }
+
+    #renew .nav_btn>a.nav_member:before {
+        content: "";
+        display: block;
+        width: 5vw;
+        background: url(/assets2/images/nav/icon_login.png) no-repeat left top;
+        background-size: contain;
+        margin-top: 1.33333vw
+    }
+
+    #renew .nav_btn>a.nav_entry:before {
+        content: "";
+        display: block;
+        width: 7vw;
+        background: url(/assets2/images/nav/icon_entry_20230825.png) no-repeat left top;
+        background-size: contain;
+        margin-top: 1.66666vw
+    }
+
+    #renew .nav_btn.static {
+        width: auto;
+        right: 2%;
+        position: fixed
+    }
+
+    #renew .menu {
+        position: fixed;
+        right: -100%;
+        display: block !important;
+        transition: right .3s ease;
+        height: 100%
+    }
+
+    #renew .menu.active {
+        right: 0
+    }
+
+    #renew .menu_inner {
+        padding: 0 2.5%;
+        height: calc(100% - 26.66667vw)
+    }
+
+    #renew .menu_center a {
+        display: block;
+        font-size: 3.46667vw
+    }
+
+    #renew .menu .campaign a {
+        display: none;
+        border-radius: 2.4vw;
+        padding: 4vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat 94% center #fff;
+        background-size: 1.73333vw 2.26667vw
+    }
+
+    #renew .menu .campaign a.new {
+        position: relative
+    }
+
+    #renew .menu .campaign a.new:after {
+        content: "NEW";
+        width: 8vw;
+        height: 4vw;
+        border-radius: 2.66667vw;
+        display: block;
+        color: #fff;
+        text-align: center;
+        font-size: 2.4vw;
+        background-color: #41bdd3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        margin-left: 1.33333vw
+    }
+
+    #renew .menu .campaign a+a {
+        margin-top: .53333vw
+    }
+
+    #renew .menu_row {
+        margin-top: 1.86667vw
+    }
+
+    #renew .menu_column dl {
+        border-radius: 2.4vw;
+        background-color: #fff;
+        padding: 0 4vw;
+        border: solid 2px #dcdcdc
+    }
+
+    #renew .menu_column dl dd a {
+        padding: 4vw 0
+    }
+
+    #renew .menu_column dl dt {
+        padding: 4vw 0;
+        padding-right: 5.33333vw;
+        padding-left: 1.33333vw;
+        position: relative
+    }
+
+    #renew .menu_column dl dt a {
+        font-size: 4vw;
+        font-family: "Midashi Go MB31"
+    }
+
+    #renew .menu_column dl dt a.open_trigger {
+        position: absolute;
+        right: .53333vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 3.73333vw;
+        height: 3.73333vw;
+        padding: 0;
+        background: url(/assets/images/nav/circle_arrow_red.svg);
+        background-size: 100% 100%;
+        transform: rotate(90deg);
+        transition: transform .3s ease
+    }
+
+    #renew .menu_column dl dd {
+        display: none
+    }
+
+    #renew .menu_column dl dd a {
+        padding: 4vw 5.33333vw 4vw 2.66667vw;
+        border-top: .53333vw solid #dfe8ef;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat 98% center;
+        background-size: 1.73333vw 2.26667vw
+    }
+
+    #renew .menu_column dl+dl {
+        margin-top: .53333vw
+    }
+
+    #renew .menu_column dl.active dt a.open_trigger {
+        transform: rotate(-90deg)
+    }
+
+    #renew .menu_column+.menu_column {
+        margin-top: .53333vw
+    }
+
+    #renew .menu .text_link {
+        margin: 5.33333vw 4vw;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: relative;
+        padding-right: 40%
+    }
+
+    #renew .menu .text_link_group:nth-of-type(1) {
+        width: 100%
+    }
+
+    #renew .menu .text_link_group:nth-of-type(2) {
+        width: 36%
+    }
+
+    #renew .menu .sp .text_link_group {
+        margin-left: 3.46667vw
+    }
+
+    #renew .menu .sp #sns_text0.text_link_group {
+        border-left: .8vw solid #ea0000;
+        padding-left: 3.73333vw;
+        margin-left: 0
+    }
+
+    #renew .menu .sp .text_link #sns_text0.text_link_group p {
+        color: #ea0000;
+        font-size: 3.46667vw;
+        border-left: none;
+        position: static;
+        right: inherit;
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        padding: 1.33333vw 0 1.33333vw;
+        text-align: center
+    }
+
+    #renew .menu .sp .text_link #sns_text0.text_link_group a {
+        display: table-cell
+    }
+
+    #renew .menu .sp .text_link #sns_text0.text_link_group img {
+        width: 100%
+    }
+
+    #renew .menu .text_link a {
+        display: inline-block;
+        padding: 0 1.73666vw;
+        color: #ea0000;
+        font-size: 3.46667vw;
+        margin: 0 1.33333vw 0 0;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .menu .text_link p {
+        color: #ea0000;
+        font-size: 3.46667vw;
+        border-left: .8vw solid #a01111;
+        padding-left: 3.73333vw;
+        position: absolute;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 1.33333vw 0 1.33333vw 3.73333vw;
+        text-align: center
+    }
+
+    #renew .menu .text_link p a {
+        background: none;
+        padding-left: 0;
+        width: 9.86667vw;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 1.33333vw
+    }
+
+    #renew .menu .text_link p a+a {
+        margin-left: 2.66667vw
+    }
+
+    #renew .menu .text_link p a img {
+        max-width: 100%
+    }
+
+    #renew .menu .bnr {
+        padding-bottom: 3.73333vw;
+        justify-content: center
+    }
+
+    #renew .menu .bnr a {
+        display: none
+    }
+
+    #renew .menu .bnr a img {
+        width: 100%
+    }
+
+    #renew .menu .bnr a+a {
+        margin-top: .53333vw
+    }
+
+    #renew .bottom_bnr {
+        width: 100%;
+        padding: 4vw 2.5%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        box-shadow: 0px 0px 5.33333vw rgba(0,0,0,.15)
+    }
+
+    #renew .bottom_bnr a {
+        width: 30.13333vw;
+        display: block;
+        background-color: #fff;
+        border-radius: 2.4vw;
+        padding: 3.73333vw 0;
+        height: 19.2vw;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 2.4vw;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .bottom_bnr a img {
+        width: 10.13333vw;
+        margin: 0 auto;
+        display: block
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px) {
+    #renew .menu .campaign {
+        justify-content:flex-start;
+        width: 50%;
+        margin: 0 !important
+    }
+
+    #renew .menu_center {
+        padding: 1.47945vw 4.10959vw 4.10959vw
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .menu .text_link {
+        margin:5.33333vw 4vw;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: relative;
+        padding-right: 0%
+    }
+}
+
+#SS_searchForm #SS_searchQuery {
+    outline: none;
+    border: 2px solid #dcdcdc;
+    padding: 0 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: calc(100% - 393px);
+    max-width: 729px;
+    min-height: 54px;
+    background: #fafafa;
+    border-radius: 5.86667vw;
+    box-sizing: border-box
+}
+
+#SS_searchForm #SS_searchQuery:active,#SS_searchForm #SS_searchQuery:hover,#SS_searchForm #SS_searchQuery:focus {
+    background-color: #f0f4f7;
+    border-color: #000
+}
+
+#SS_searchForm #SS_searchSubmit {
+    outline: none;
+    border: solid 2px #dcdcdc;
+    color: #989898;
+    width: 90px;
+    min-height: 54px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 25px;
+    margin-left: 12px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    background-size: contain;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    font-family: "Midashi Go MB1"
+}
+
+#SS_searchForm input::-webkit-input-placeholder {
+    color: #000
+}
+
+#SS_searchForm input:-moz-placeholder {
+    color: #000
+}
+
+#SS_searchForm input::-moz-placeholder {
+    color: #000
+}
+
+#SS_searchForm input:-ms-input-placeholder {
+    color: #000
+}
+
+@media screen and (max-width: 768px) {
+    .SS_searchFormWrap>form {
+        position:relative;
+        min-height: 45px
+    }
+
+    #SS_searchForm #SS_searchQuery {
+        width: 100%;
+        padding: 0 5vw;
+        min-height: 11.66667vw;
+        border-width: .53333vw;
+        font-size: 16px
+    }
+
+    #SS_searchForm #SS_searchQuery:active,#SS_searchForm #SS_searchQuery:hover,#SS_searchForm #SS_searchQuery:focus {
+        border-width: 1px
+    }
+
+    #SS_searchForm #SS_searchSubmit {
+        padding: 0;
+        height: 10.66667vw;
+        min-height: 10.66667vw;
+        width: 17.8vw;
+        margin-left: 2.4vw;
+        font-size: 2.93333vw;
+        position: absolute;
+        top: .25vh;
+        right: .5vw;
+        z-index: 9999;
+        background-color: #ea0000;
+        background-size: contain;
+        border: none;
+        color: #fff;
+        font-family: "Midashi Go MB1"
+    }
+}
+
+#renew .menu .campaign {
+    display: none
+}
+
+#renew .breadcrumb {
+    background-color: #f0f4f7
+}
+
+#renew .breadcrumb ul {
+    margin: 0 auto;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#renew .breadcrumb ul li {
+    display: inline;
+    overflow: hidden;
+    font-family: "Midashi Go MB1"
+}
+
+#renew .breadcrumb ul li img {
+    vertical-align: middle
+}
+
+#renew .breadcrumb ul li+li:before {
+    content: "";
+    display: inline-block;
+    background: url(/assets/images/common/red_arrow.svg) no-repeat left top
+}
+
+#renew .breadcrumb ul li a {
+    text-decoration: none;
+    font-family: "Midashi Go MB1"
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .breadcrumb {
+        padding:27px 0
+    }
+
+    #renew .breadcrumb ul {
+        max-width: 1440px;
+        padding: 0 32px
+    }
+
+    #renew .breadcrumb ul li {
+        font-size: 1.5rem
+    }
+
+    #renew .breadcrumb ul li a {
+        font-size: inherit;
+        position: relative
+    }
+
+    #renew .breadcrumb ul li a img {
+        width: 22px;
+        margin-top: -2px
+    }
+
+    #renew .breadcrumb ul li+li {
+        margin-left: 14px
+    }
+
+    #renew .breadcrumb ul li+li:before {
+        margin-right: 14px;
+        width: 8px;
+        height: 10px
+    }
+
+    #renew .breadcrumb ul li+li a:after {
+        position: absolute;
+        content: "";
+        display: block;
+        height: 1px;
+        width: 0%;
+        background-color: #000;
+        left: 0;
+        bottom: -2px;
+        transition: width .3s ease
+    }
+
+    #renew .breadcrumb ul li+li a:hover:after {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew .breadcrumb ul {
+        padding:0 3.88151vw
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .breadcrumb {
+        padding:3.46667vw 0
+    }
+
+    #renew .breadcrumb ul {
+        padding: 0 5.06667vw
+    }
+
+    #renew .breadcrumb ul li {
+        font-size: 3.46667vw
+    }
+
+    #renew .breadcrumb ul li a {
+        font-size: inherit
+    }
+
+    #renew .breadcrumb ul li a img {
+        width: 4.26667vw;
+        margin-top: -0.53333vw
+    }
+
+    #renew .breadcrumb ul li+li {
+        margin-left: 2.93333vw
+    }
+
+    #renew .breadcrumb ul li+li:before {
+        margin-right: 2.93333vw;
+        width: 1.73333vw;
+        height: 2.13333vw
+    }
+}
+
+/* #renew .side-navigation .link_item p,#renew .side-navigation .link_item .parent {
+    line-height: 1.2;
+    background-color: #ce0023;
+    color: #fff;
+    font-family: "Midashi Go MB31"
+}
+
+#renew .side-navigation .link_item p:before,#renew .side-navigation .link_item .parent:before {
+    content: none !important
+}
+
+#renew .side-navigation .link_item p:after,#renew .side-navigation .link_item .parent:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+#renew .side-navigation .link_item a {
+    display: block;
+    line-height: 1.2
+}
+
+#renew .side-navigation .link_item a.now {
+    background-color: #dfe8ef
+}
+
+#renew .side-navigation .link_item a.now+a:before {
+    background-color: rgba(0,0,0,0)
+}
+
+#renew .side-navigation .link_item .links {
+    background-color: #fff
+}
+
+#renew .side-navigation .link_item .links a:first-of-type:before {
+    content: none
+}
+
+#renew .side-navigation .bnr_item {
+    display: block
+}
+
+#renew .side-navigation .bnr_item a {
+    background-color: #fff
+}
+
+#renew #info_wrapper .link_item a:not(.parent):last-of-type {
+    border-radius: 0
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .side-navigation {
+        width:280px;
+        flex-shrink: 0
+    }
+
+    #renew .side-navigation .link_item {
+        border-radius: 13px
+    }
+
+    #renew .side-navigation .link_item .links {
+        border-radius: 0 0 13px 13px
+    }
+
+    #renew .side-navigation .link_item p,#renew .side-navigation .link_item a {
+        padding: 22px 0 22px 46px;
+        position: relative
+    }
+
+    #renew .side-navigation .link_item p:before,#renew .side-navigation .link_item a:before {
+        content: "";
+        display: block;
+        background-color: #dfe8ef;
+        width: calc(100% - 20px);
+        height: 3px;
+        position: absolute;
+        left: 10px;
+        top: 0px;
+        transition: background-position .3s ease
+    }
+
+    #renew .side-navigation .link_item p,#renew .side-navigation .link_item .parent {
+        font-size: 2rem;
+        background-size: 15px 15px;
+        background-position: 24px center;
+        cursor: pointer;
+        position: relative;
+        border-radius: 13px 13px 0 0;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1);
+        z-index: 1
+    }
+
+    #renew .side-navigation .link_item p:after,#renew .side-navigation .link_item .parent:after {
+        width: 15px;
+        height: 15px;
+        background: url(/assets/images/sideNav/red_arrow.svg) no-repeat center center #fff;
+        background-size: 6px 8px;
+        border-radius: 50%;
+        left: 24px;
+        transition: background-position .3s ease
+    }
+
+    #renew .side-navigation .link_item p:hover,#renew .side-navigation .link_item .parent:hover {
+        transform: scale(1.03)
+    }
+
+    #renew .side-navigation .link_item p:hover:after,#renew .side-navigation .link_item .parent:hover:after {
+        background-position: 74% center
+    }
+
+    #renew .side-navigation .link_item a:not(.parent) {
+        border-left: 3px solid #dfe8ef;
+        border-right: 3px solid #dfe8ef;
+        font-size: 1.5rem;
+        background-size: 8px 10px;
+        background-position: 27px center;
+        transition: transform .2s cubic-bezier(0.175, 0.885, 0.47, 1.26);
+        position: relative
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):hover {
+        transform: scale(1.03);
+        border: 3px solid #dfe8ef;
+        padding: 19px 0 19px 46px
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):hover:before {
+        opacity: 0
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):hover:after {
+        left: 30px
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):hover+a:before {
+        opacity: 0
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):after {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 10px;
+        background: url(/assets/images/sideNav/red_arrow.svg) no-repeat left center;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 26px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transition: left .3s ease
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):last-of-type {
+        border-bottom: 3px solid #dfe8ef;
+        border-radius: 0 0 13px 13px
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):last-of-type:hover {
+        border-radius: 0 0 13px 13px;
+        padding: 21px 0 20px 46px
+    }
+
+    #renew .side-navigation .bnr_item {
+        margin-top: 12px
+    }
+
+    #renew .side-navigation .bnr_item .bnr {
+        border: 3px solid #dfe8ef;
+        border-radius: 13px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 84px;
+        padding: 0 30px 0 9px;
+        margin-top: 8px;
+        transition: border-color .3s ease,transform .2s ease
+    }
+
+    #renew .side-navigation .bnr_item .bnr:hover {
+        border-color: #ce0023;
+        transform: scale(1.02)
+    }
+
+    #renew .side-navigation .bnr_item .bnr img {
+        width: 73px
+    }
+
+    #renew .side-navigation .bnr_item .bnr span {
+        font-size: 1.5rem;
+        margin-left: 12px;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew #info_wrapper .link_item>div:last-of-type a:last-of-type {
+        border-radius: 0 0 13px 13px
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew .side-navigation {
+        width:100%;
+        margin-top: 4vw
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .side-navigation {
+        margin-top:16vw
+    }
+
+    #renew .side-navigation .link_item {
+        border-radius: 2.26667vw
+    }
+
+    #renew .side-navigation .link_item p,#renew .side-navigation .link_item a {
+        padding: 5.6vw 0 5.6vw 10.66667vw;
+        position: relative
+    }
+
+    #renew .side-navigation .link_item p:before,#renew .side-navigation .link_item a:before {
+        content: "";
+        display: block;
+        background-color: #dfe8ef;
+        width: calc(100% - 6.93333vw);
+        height: .53333vw;
+        position: absolute;
+        left: 3.46667vw;
+        top: 0
+    }
+
+    #renew .side-navigation .link_item p,#renew .side-navigation .link_item .parent {
+        font-size: 4vw;
+        position: relative;
+        border-radius: 2.26667vw 2.26667vw 0 0
+    }
+
+    #renew .side-navigation .link_item p:after,#renew .side-navigation .link_item .parent:after {
+        content: "";
+        display: block;
+        width: 3.73333vw;
+        height: 3.73333vw;
+        background: url(/assets/images/sideNav/circle_arrow_white.svg) no-repeat left center;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 5.06667vw;
+        top: 0;
+        bottom: 0;
+        margin: auto
+    }
+
+    #renew .side-navigation .link_item a {
+        font-size: 3.46667vw;
+        box-sizing: border-box
+    }
+
+    #renew .side-navigation .link_item a:not(.parent) {
+        position: relative;
+        border-left: .53333vw solid #dfe8ef;
+        border-right: .53333vw solid #dfe8ef
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):after {
+        content: "";
+        display: block;
+        width: 1.73333vw;
+        height: 2.26667vw;
+        background: url(/assets/images/sideNav/red_arrow.svg) no-repeat left center;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 6.4vw;
+        top: 0;
+        bottom: 0;
+        margin: auto
+    }
+
+    #renew .side-navigation .link_item a:not(.parent):last-of-type {
+        border-bottom: .53333vw solid #dfe8ef;
+        border-radius: 0 0 2.26667vw 2.26667vw
+    }
+
+    #renew .side-navigation .bnr_item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.33333vw
+    }
+
+    #renew .side-navigation .bnr_item .bnr {
+        border: .53333vw solid #dfe8ef;
+        width: 49.2%;
+        min-height: 32.26667vw;
+        border-radius: 2.26667vw;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.4vw
+    }
+
+    #renew .side-navigation .bnr_item .bnr img {
+        width: 19.46667vw
+    }
+
+    #renew .side-navigation .bnr_item .bnr span {
+        font-size: 2.93333vw;
+        text-align: center;
+        margin-top: 2.4vw;
+        line-height: 1.3;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew #info_wrapper .link_item>div:last-of-type a:last-of-type {
+        border-radius: 0 0 2.26667vw 2.26667vw
+    }
+}
+
+.cv_item a {
+    display: block
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .side-navigation .cv_item {
+        margin-top:12px
+    }
+}
+
+#renew .side-navigation .cv_item a {
+    background: #ce0023;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84px;
+    margin-top: 8px;
+    transition: transform .2s ease
+}
+
+#renew .side-navigation .cv_item a:hover {
+    border-color: #ce0023;
+    transform: scale(1.02)
+}
+
+#renew .side-navigation .cv_item a img {
+    width: 50px
+}
+
+#renew .side-navigation .cv_item a span {
+    font-size: 1.5rem;
+    margin-left: 12px;
+    color: #fff;
+    font-family: "Midashi Go MB1"
+}
+
+@media screen and (max-width: 768px) {
+    #renew .side-navigation .cv_item a {
+        min-height:20vw;
+        border-radius: 100vw;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.4vw
+    }
+
+    #renew .side-navigation .cv_item a img {
+        width: 13vw
+    }
+
+    #renew .side-navigation .cv_item a span {
+        text-align: center
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .container .side-navigation .bnr_item .bnr.spmr {
+        width:32.2%;
+        padding: 3.2vw 1.6vw;
+        align-items: center
+    }
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .side-navigation .bnr_item .bnr.spmr {
+        padding:0 10px 0 9px
+    }
+}
+
+#renew .container .content main .qa_list_ttl {
+    color: #000
+}
+
+#renew .container .content main .qa_list_content dl.active dt:before {
+    transform: rotate(-90deg)
+}
+
+#renew .container .content main .qa_list_content dl dt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-family: "Midashi Go MB1"
+}
+
+#renew .container .content main .qa_list_content dl dt:before {
+    content: "";
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: rotate(90deg)
+}
+
+#renew .container .content main .qa_list_content dl dt span {
+    color: #fff;
+    border-radius: 50%;
+    font-family: "Swiss 721";
+    background-color: #ce0023;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#renew .container .content main .qa_list_content dl dd {
+    display: none;
+    position: relative
+}
+
+#renew .container .content main .qa_list_content dl dd span {
+    color: #fff;
+    border-radius: 50%;
+    font-family: "Swiss 721";
+    background-color: #afc1ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0
+}
+
+#renew .container .content main .qa_list_content dl dd .note_txt {
+    margin-left: 1em;
+    text-indent: -1em
+}
+
+#renew .container .content main .qa_list_content dl dd .list_dot {
+    margin-left: .5em;
+    text-indent: -0.5em
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .container {
+        padding-bottom:150px
+    }
+
+    #renew .container .content {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 60px 58px 0;
+        box-sizing: border-box
+    }
+
+    #renew .container .content main {
+        width: calc(99% - 330px)
+    }
+
+    #renew .container .content main .qa_list {
+        margin-top: 76px;
+        border-top: 3px solid #dfe8ef;
+        padding-top: 70px
+    }
+
+    #renew .container .content main .qa_list.no_border {
+        margin-top: 0;
+        border: none
+    }
+
+    #renew .container .content main .qa_list_ttl {
+        font-size: 4.4rem;
+        margin-bottom: 24px
+    }
+
+    #renew .container .content main .qa_list_content {
+        border-radius: 13px
+    }
+
+    #renew .container .content main .qa_list_content dl {
+        border-left: 3px solid #dfe8ef;
+        border-right: 3px solid #dfe8ef
+    }
+
+    #renew .container .content main .qa_list_content dl+dl {
+        border-top: 3px solid #dfe8ef
+    }
+
+    #renew .container .content main .qa_list_content dl dt {
+        cursor: pointer;
+        padding: 29px 27px;
+        padding-right: 42px;
+        border: 3px solid rgba(0,0,0,0);
+        transition: transform .3s cubic-bezier(0.58, 1, 0.23, 1),border-color .3s cubic-bezier(0.33, 0.71, 0.15, 0.72);
+        background-color: #fff;
+        z-index: 1;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .container .content main .qa_list_content dl dt:before {
+        width: 11px;
+        height: 14px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+        background-size: 11px 14px;
+        right: 36px
+    }
+
+    #renew .container .content main .qa_list_content dl dt span {
+        width: 34px;
+        height: 34px;
+        margin-right: 16px
+    }
+
+    #renew .container .content main .qa_list_content dl dd {
+        border-top: 4px dotted #dfe8ef;
+        padding: 32px 36px;
+        padding-left: 90px
+    }
+
+    #renew .container .content main .qa_list_content dl dd span {
+        width: 34px;
+        height: 34px;
+        left: 36px
+    }
+
+    #renew .container .content main .qa_list_content dl dd p {
+        margin-bottom: 0
+    }
+
+    #renew .container .content main .qa_list_content dl dd p+p {
+        margin-top: 0 !important
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr {
+        margin: 1em 0 0;
+        padding-left: 24px;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        text-indent: 0;
+        transition: color .25s cubic-bezier(0.23, 1, 0.58, 1);
+        word-break: break-all
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 11px;
+        height: 14px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        transition: left .2s linear
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr:hover {
+        color: #afc1ce
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr:hover:before {
+        left: 4px
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr:hover span {
+        background: none
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr span {
+        background: -moz- oldlinear-gradient(transparent 95%, #000 0%);
+        background: linear-gradient(transparent 95%, #000 0%);
+        color: inherit;
+        font-weight: inherit
+    }
+
+    #renew .container .content main .qa_list_content dl dd .btn_arr {
+        text-align: center;
+        font-size: 1.6rem;
+        display: inline-block;
+        padding: 17px 84px 17px 84px;
+        border: 3px solid #dfe8ef;
+        border-radius: 30px;
+        text-decoration: none;
+        position: relative;
+        line-height: 1;
+        margin: 1em 0 0
+    }
+
+    #renew .container .content main .qa_list_content dl dd .btn_arr:hover {
+        border-color: #ce0023
+    }
+
+    #renew .container .content main .qa_list_content dl dd .btn_arr:hover:before {
+        right: 18px
+    }
+
+    #renew .container .content main .qa_list_content dl dd .btn_arr:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 11px;
+        height: 14px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 24px
+    }
+
+    #renew .container .content main .qa_list_content dl:not(.active):hover {
+        border: none
+    }
+
+    #renew .container .content main .qa_list_content dl:not(.active):hover dt {
+        background-color: #fff;
+        transform: scale(1.02) translateY(-1px);
+        border-color: #dfe8ef;
+        padding: 32px 28px;
+        transition: transform .3s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew .container .content main .qa_list_content dl:not(.active):hover+dl {
+        border-top: none
+    }
+
+    #renew .container .content main .qa_list_content dl:first-of-type {
+        border-radius: 13px 13px 0 0;
+        border-top: 3px solid #dfe8ef
+    }
+
+    #renew .container .content main .qa_list_content dl:first-of-type dt {
+        border-top: 3px solid rgba(0,0,0,0);
+        border-radius: 13px 13px 0 0
+    }
+
+    #renew .container .content main .qa_list_content dl:last-of-type {
+        border-bottom: 3px solid #dfe8ef;
+        border-radius: 0 0 13px 13px
+    }
+
+    #renew .container .content main .qa_list_content dl:last-of-type dt {
+        border-radius: 0 0 13px 13px
+    }
+
+    #renew .container .content main .qa_list_content dl:last-of-type:not(.active):hover {
+        border-bottom: none
+    }
+
+    #renew .container .content main .qa_list .qa_link {
+        margin: 28px 0 56px;
+        text-align: right
+    }
+
+    #renew .container .content main .qa_list .qa_link a {
+        padding-left: 24px;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 700
+    }
+
+    #renew .container .content main .qa_list .qa_link a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 11px;
+        height: 14px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew .container {
+        height:auto
+    }
+
+    #renew .container .content {
+        display: block
+    }
+
+    #renew .container .content main {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .container {
+        padding-top:16vw;
+        padding-bottom: 17.33333vw
+    }
+
+    #renew .container .content {
+        padding: 9.33333vw 2.66667vw 0
+    }
+
+    #renew .container .content main {
+        width: 100%
+    }
+
+    #renew .container .content main .qa_list {
+        width: calc(100% + 5.33333vw);
+        margin-left: -2.66667vw;
+        margin-top: 10.13333vw;
+        border-top: .53333vw solid #dfe8ef;
+        padding-top: 12vw
+    }
+
+    #renew .container .content main .qa_list.no_border {
+        margin-top: 0;
+        border: none
+    }
+
+    #renew .container .content main .qa_list_ttl {
+        font-size: 6.4vw;
+        margin-bottom: 7.73333vw;
+        padding: 0 2.66667vw
+    }
+
+    #renew .container .content main .qa_list_content {
+        border: .53333vw solid #dfe8ef;
+        border-radius: 2.26667vw
+    }
+
+    #renew .container .content main .qa_list_content dl+dl {
+        border-top: .53333vw solid #dfe8ef
+    }
+
+    #renew .container .content main .qa_list_content dl dt {
+        align-items: flex-start;
+        padding: 5.06667vw 2.66667vw;
+        padding-right: 8.53333vw;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .container .content main .qa_list_content dl dt:before {
+        width: 1.86667vw;
+        height: 2.4vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+        background-size: 1.86667vw 2.4vw;
+        right: 5.33333vw
+    }
+
+    #renew .container .content main .qa_list_content dl dt span {
+        width: 5.33333vw;
+        height: 5.33333vw;
+        font-size: 3.46667vw;
+        margin-right: 2.93333vw;
+        flex-shrink: 0;
+        margin-top: .53333vw
+    }
+
+    #renew .container .content main .qa_list_content dl dd {
+        border-top: .8vw dotted #dfe8ef;
+        padding: 5.06667vw 5.33333vw;
+        padding-left: 13.33333vw
+    }
+
+    #renew .container .content main .qa_list_content dl dd span {
+        width: 5.33333vw;
+        height: 5.33333vw;
+        font-size: 3.46667vw;
+        left: 5.33333vw;
+        margin-top: .53333vw
+    }
+
+    #renew .container .content main .qa_list_content dl dd p {
+        margin-bottom: 0
+    }
+
+    #renew .container .content main .qa_list_content dl dd p+p {
+        margin-top: 0 !important
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr {
+        margin: 1em 0 0;
+        padding-left: 4.26667vw;
+        position: relative;
+        font-size: 4vw;
+        display: inline-block;
+        text-indent: 0;
+        word-break: break-all
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr span {
+        background: -moz- oldlinear-gradient(transparent 95%, #000 0%);
+        background: linear-gradient(transparent 95%, #000 0%);
+        padding-bottom: .4vw;
+        font-weight: inherit;
+        color: inherit
+    }
+
+    #renew .container .content main .qa_list_content dl dd .link_arr:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1.73333vw;
+        height: 2.26667vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0
+    }
+
+    #renew .container .content main .qa_list_content dl dd .btn_arr {
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        padding: 4.26667vw 2.13333vw;
+        border: 1px solid;
+        border-radius: 6.4vw;
+        border: .53333vw solid #dfe8ef;
+        text-decoration: none;
+        position: relative;
+        line-height: 1;
+        max-width: 58.66667vw;
+        margin: 4vw auto;
+        position: relative;
+        font-size: 3.06667vw
+    }
+
+    #renew .container .content main .qa_list_content dl dd .btn_arr:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1.73333vw;
+        height: 2vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        background-size: 1.73333vw 2vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 5.33333vw
+    }
+
+    #renew .container .content main .qa_list .qa_link {
+        margin: .5em 0 2em;
+        text-align: right
+    }
+
+    #renew .container .content main .qa_list .qa_link a {
+        padding-left: 4.26667vw;
+        position: relative;
+        font-size: 4vw;
+        display: inline-block
+    }
+
+    #renew .container .content main .qa_list .qa_link a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1.73333vw;
+        height: 2.26667vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0
+    }
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p a {
+        margin:1em 0 0;
+        padding-left: 24px;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        text-indent: 0;
+        transition: color .25s cubic-bezier(0.23, 1, 0.58, 1);
+        word-break: break-all
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 11px;
+        height: 14px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        transition: left .2s linear
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p a:hover {
+        color: #afc1ce
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p a:hover:before {
+        left: 4px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a {
+        text-align: center;
+        font-size: 1.6rem;
+        display: inline-block;
+        padding: 17px 84px 17px 84px;
+        border: 3px solid #dfe8ef;
+        border-radius: 30px;
+        text-decoration: none;
+        position: relative;
+        line-height: 1;
+        margin: 1em 0 0;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:hover {
+        border-color: #ce0023
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:hover:before {
+        right: 18px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 11px;
+        height: 14px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 24px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:not(.active):hover {
+        border: none
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:not(.active):hover dt {
+        background-color: #fff;
+        transform: scale(1.02) translateY(-1px);
+        border-color: #dfe8ef;
+        padding: 32px 28px;
+        transition: transform .3s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:not(.active):hover+dl {
+        border-top: none
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:first-of-type {
+        border-radius: 13px 13px 0 0;
+        border-top: 3px solid #dfe8ef
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:first-of-type dt {
+        border-top: 3px solid rgba(0,0,0,0);
+        border-radius: 13px 13px 0 0
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:last-of-type {
+        border-bottom: 3px solid #dfe8ef;
+        border-radius: 0 0 13px 13px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:last-of-type dt {
+        border-radius: 0 0 13px 13px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl:last-of-type:not(.active):hover {
+        border-bottom: none
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .container .content main .qa_list_content.qa_list_content_g {
+        border:.53333vw solid #dfe8ef;
+        border-radius: 2.26667vw
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl+dl {
+        border-top: .53333vw solid #dfe8ef
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dt {
+        align-items: flex-start;
+        padding: 5.06667vw 2.66667vw;
+        padding-right: 8.53333vw
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dt:before {
+        width: 1.86667vw;
+        height: 2.4vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+        background-size: 1.86667vw 2.4vw;
+        right: 5.33333vw
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd {
+        border-top: .8vw dotted #dfe8ef;
+        padding: 5.06667vw 5.33333vw;
+        padding-left: 13.33333vw
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p {
+        margin-bottom: 0
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p+p {
+        margin-top: 0 !important
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p a {
+        margin: 1em 0 0;
+        padding-left: 4.26667vw;
+        position: relative;
+        font-size: 4vw;
+        display: inline-block;
+        text-indent: 0;
+        word-break: break-all
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd p a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1.73333vw;
+        height: 2.26667vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a {
+        text-align: center;
+        box-sizing: border-box;
+        font-weight: 700;
+        display: block;
+        padding: 4.26667vw 2.13333vw;
+        border: 1px solid;
+        border-radius: 6.4vw;
+        border: .53333vw solid #dfe8ef;
+        text-decoration: none;
+        position: relative;
+        line-height: 1;
+        max-width: 58.66667vw;
+        margin: 4vw auto;
+        position: relative;
+        font-size: 3.06667vw
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1.73333vw;
+        height: 2vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+        background-size: 1.73333vw 2vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 5.33333vw
+    }
+}
+
+@media screen and (min-width: 769px),print {
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd div {
+        font-size:1.3rem;
+        margin-left: 1em;
+        text-indent: -1em;
+        color: #4f4f4f;
+        margin-bottom: .4em
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd div {
+        font-size:2.93333vw;
+        margin-left: 1em;
+        text-indent: -1em;
+        color: #4f4f4f;
+        margin-bottom: .4em
+    }
+}
+
+#renew footer {
+    background-color: #f0f4f7;
+    z-index: 1;
+    position: absolute
+}
+
+#renew footer * {
+    color: #fff
+}
+
+#renew footer section {
+    background-color: #fff
+}
+
+#renew footer section.about {
+    background-color: #ce0023
+}
+
+#renew footer section.about p span {
+    display: block;
+    font-size: inherit;
+    font-family: "Midashi Go MB1"
+}
+
+#renew footer section.bottom {
+    background-color: #db0025
+}
+
+#renew footer section .link_btn,#renew footer section .link_text {
+    display: flex
+}
+
+#renew footer section .link_btn a,#renew footer section .link_text a {
+    color: #ea0000
+}
+
+#renew footer section.about .link_btn a,#renew footer section.about .link_text a,#renew footer section.bottom .link_btn a,#renew footer section.bottom .link_text a {
+    color: #fff
+}
+
+#renew footer section .copyright {
+    font-family: "Swiss 721",sans-serif;
+    font-weight: 600
+}
+
+@media screen and (min-width: 769px),print {
+    #renew footer {
+        padding-top:150px;
+        margin-top: 30px;
+        width: 100%
+    }
+
+    #renew footer section {
+        display: flex;
+        padding: 48px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative
+    }
+
+    #renew footer section .logo img {
+        width: 204px;
+        height: 67px
+    }
+
+    #renew footer section .pagetop {
+        position: absolute;
+        font-size: 0;
+        height: 60px;
+        width: 60px;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat center center #fff;
+        background-size: 12px auto;
+        border-radius: 50%;
+        transform: rotate(-90deg);
+        right: 20px;
+        top: 20px;
+        transition: background-position .3s ease;
+        border: solid 2px #ea0000
+    }
+
+    #renew footer section .pagetop:hover {
+        background-position: 58% center
+    }
+
+    #renew footer section .link_btn {
+        align-items: center;
+        margin-left: 26px
+    }
+
+    #renew footer section .link_btn a {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.7rem;
+        padding: 9px 38px;
+        transition: border-color .3s ease,transform .2s cubic-bezier(0.23, 1, 0.58, 1);
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew footer section .link_btn a:hover {
+        transform: scale(1.05);
+        border-color: #fff
+    }
+
+    #renew footer section .link_btn a+a {
+        margin-left: 8px
+    }
+
+    #renew footer section.about {
+        padding: 58px 0
+    }
+
+    #renew footer section.about p {
+        max-width: 566px;
+        font-size: 1.3rem;
+        padding: 0 58px;
+        width: 50%
+    }
+
+    #renew footer section.about p+p {
+        border-left: 3px solid #ad0f0f
+    }
+
+    #renew footer section.bottom {
+        padding: 40px 16px 35px;
+        justify-content: space-between
+    }
+
+    #renew footer section.bottom .link_text a {
+        font-size: 1.3rem;
+        margin-right: 16px
+    }
+
+    #renew footer section.bottom .link_text a:after {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 2px;
+        left: 0;
+        background-color: #fff;
+        transition: width .3s ease
+    }
+
+    #renew footer section.bottom .link_text a:hover:after {
+        width: 100%
+    }
+
+    #renew footer section.bottom .link_text a+a {
+        margin-left: 16px;
+        position: relative
+    }
+
+    #renew footer section.bottom .link_text a+a:before {
+        position: absolute;
+        content: "";
+        display: block;
+        left: -16px;
+        width: 2px;
+        height: 100%;
+        background-color: #ad0f0f
+    }
+
+    #renew footer section.bottom .inner {
+        max-width: 1384px;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    #renew footer section .copyright {
+        font-size: 1.3rem;
+        margin-top: 8px
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew footer section .pagetop {
+        top:8px;
+        width: 50px;
+        height: 50px
+    }
+
+    #renew footer section .link_btn a {
+        padding: .91931vw 2.0429vw;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew footer section.about p {
+        padding: 0 4.0858vw
+    }
+
+    #renew footer section .link_text {
+        flex-wrap: wrap;
+        margin-top: -1.02145vw
+    }
+
+    #renew footer section .link_text a {
+        margin-top: 1.02145vw
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew footer {
+        padding-top:17.33333vw;
+        width: 100%
+    }
+
+    #renew footer section {
+        padding: 7.2vw 0
+    }
+
+    #renew footer section .logo {
+        text-align: center;
+        display: block;
+        width: 40vw;
+        height: 12.8vw;
+        margin: 0 auto
+    }
+
+    #renew footer section .logo img {
+        width: 100%;
+        height: 100%
+    }
+
+    #renew footer section .link_btn {
+        align-items: center;
+        justify-content: space-between;
+        border: .53333vw solid #e66f6d;
+        border-radius: 8vw;
+        padding: 3.73333vw 5.06667vw;
+        margin: 5.33333vw auto 0;
+        width: 94.66667vw;
+        box-sizing: border-box
+    }
+
+    #renew footer section .link_btn a {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 2.93333vw;
+        line-height: 1;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew footer section .link_btn a+a {
+        margin-left: .1vw;
+        position: relative
+    }
+
+    #renew footer section .link_btn a+a:before {
+        content: "";
+        display: block;
+        width: .26667vw;
+        height: 100%;
+        background-color: #e66f6d;
+        left: -3.2vw;
+        position: absolute
+    }
+
+    #renew footer section.about {
+        padding: 7.46667vw 0
+    }
+
+    #renew footer section.about p {
+        width: 86.66667vw;
+        font-size: 2.66667vw;
+        margin: 0 auto
+    }
+
+    #renew footer section.about p+p {
+        border-top: .53333vw solid #ad0f0f;
+        margin-top: 4vw;
+        padding-top: 4vw
+    }
+
+    #renew footer section.bottom {
+        padding: 4.53333vw 0 4.26667vw;
+        justify-content: space-between
+    }
+
+    #renew footer section.bottom .link_text {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 19.73333vw 0 2.4vw
+    }
+
+    #renew footer section.bottom .link_text a {
+        font-size: 2.93333vw;
+        margin-right: 3.73333vw;
+        margin-top: 3.06667vw;
+        line-height: 1;
+        margin-left: 3.73333vw
+    }
+
+    #renew footer section.bottom .link_text a+a {
+        position: relative
+    }
+
+    #renew footer section.bottom .link_text a+a:before {
+        position: absolute;
+        content: "";
+        display: block;
+        left: -3.73333vw;
+        width: .4vw;
+        height: 100%;
+        background-color: #ad0f0f
+    }
+
+    #renew footer section.bottom .link_text a:nth-of-type(3):before {
+        content: none
+    }
+
+    #renew footer section .copyright {
+        font-size: 2.66667vw;
+        margin-top: 8vw;
+        padding: 0 6.13333vw
+    }
+}
+
+#renew footer section .sns a,#renew footer section .link_text a {
+    color: #fff
+}
+
+@media screen and (min-width: 1025px),print {
+    #renew footer section .sns p br {
+        display:none
+    }
+}
+
+@media screen and (min-width: 769px),print {
+    #renew footer section .link_btn a+a {
+        margin-left:8px
+    }
+
+    #renew footer section .sns {
+        align-items: center;
+        margin-left: 0px;
+        display: flex
+    }
+
+    #renew footer section .sns a {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.5rem;
+        padding: 9px 2px;
+        transition: transform .2s cubic-bezier(0.23, 1, 0.58, 1)
+    }
+
+    #renew footer section .sns p {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.7rem;
+        padding: 9px 2px;
+        color: #ea0000
+    }
+
+    #renew footer section .sns a:hover {
+        transform: scale(1.075)
+    }
+
+    #renew footer section .sns a+a {
+        margin-left: 0px
+    }
+
+    #renew footer section .sns img {
+        width: 44px;
+        height: 44px
+    }
+
+    #renew footer section .sns_text {
+        margin: 0px 10px 0px 10px;
+        text-align: center;
+        font-family: "Midashi Go MB1"
+    }
+}
+
+@media screen and (min-width: 769px)and (max-width: 1024px),print {
+    #renew footer section .sns a {
+        padding:9px 2px
+    }
+
+    #renew footer section .link_btn a+a {
+        margin-left: 1px
+    }
+
+    #renew footer section .sns p {
+        padding: 9px 2px
+    }
+
+    #renew footer section .sns_text {
+        margin: 0px;
+        font-family: "Midashi Go MB1"
+    }
+
+    #renew footer section .link_btn {
+        align-items: center;
+        margin: 0px 7px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew footer section .link_btn a+a:before {
+        content:"";
+        display: block;
+        width: .4vw;
+        height: 100%;
+        background-color: #e66f6d;
+        left: -6vw;
+        position: absolute
+    }
+
+    #renew footer section .link_btn {
+        align-items: center;
+        justify-content: space-evenly;
+        border: none;
+        border-radius: 8vw;
+        padding: 3.73333vw 15vw;
+        margin: 5.33333vw auto 0;
+        width: 94.66667vw;
+        box-sizing: border-box
+    }
+
+    #renew footer section .sns {
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin: 16px 0px;
+        width: 94.66667vw;
+        height: 44px;
+        box-sizing: border-box
+    }
+
+    #renew footer section .sns p {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 2.93333vw;
+        line-height: 44px;
+        color: #ea0000
+    }
+
+    #renew footer section .sns p br {
+        display: none
+    }
+
+    #renew footer section .sns a+a {
+        margin-left: 10px;
+        position: relative
+    }
+
+    #renew footer section .sns img {
+        width: 44px;
+        height: 44px
+    }
+
+    #renew footer section .sns_text {
+        margin: 0px 10px 0px 10px;
+        font-family: "Midashi Go MB1"
+    }
+}
+
+#renew .qa_list_content dl dd div em {
+    font-style: normal
+}
+
+#renew .container .content main .qa_list_content.qa_list_content_g dl dd>a {
+    color: #ce0023;
+    text-decoration: underline
+}
+
+#renew .container .content main .qa_list_content.qa_list_content_g dl dd>p a {
+    transition: color .1s ease;
+    color: inherit;
+    font-weight: inherit;
+    font-family: "Midashi Go MB1"
+}
+
+@media screen and (min-width: 769px) {
+    #renew .container .content main .qa_list_content dl dd {
+        padding-right:32px;
+        padding-bottom: 11px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd div {
+        text-align: right
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd>a:hover {
+        color: #afc1ce;
+        text-decoration: none
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd>p a:hover {
+        color: #afc1ce
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a {
+        padding: 10.5px 42px 10.5px 42px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:hover:before {
+        right: 10px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:hover:before {
+        right: 10px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:before {
+        right: 14px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd {
+        padding-bottom:0;
+        padding-right: 20px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd div {
+        text-align: right;
+        margin-bottom: 0
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em {
+        display: inline-block
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a {
+        padding: 8.5px;
+        width: 145px;
+        margin-bottom: 15px
+    }
+
+    #renew .container .content main .qa_list_content.qa_list_content_g dl dd em a:before {
+        right: 10%
+    }
+}
+
+#renew .qa_slide li .text {
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    max-height: 4.8em;
+    display: -webkit-box
+} */
+
+
+/* HeaderNav内の<style>を移行 */
+@media screen and (max-width: 768px) {
+    #renew .menu_column_faq span {
+        color: #fff;
+        border-radius: 50%;
+        font-family: 'Swiss 721';
+        background-color: #ce0023;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5.33333vw;
+        height: 5.33333vw;
+        font-size: 3.46667vw;
+        margin-right: 2.93333vw;
+        flex-shrink: 0;
+        margin-top: 0.53333vw;
+        flex-shrink: 0;
+    }
+
+    .menu_column_faq a:before {
+        content: "";
+        display: block;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        width: 1.86667vw;
+        height: 2.4vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+        -moz-background-size: 1.86667vw 2.4vw;
+        background-size: 1.86667vw 2.4vw;
+        right: 1.9vw;
+    }
+
+    #renew .menu_center dl a {
+        display: flex;
+    }
+
+    #renew dl#faq_typesquare_option {
+        background: #F0F4F7;
+        border: none;
+        margin-bottom: 1.3vw;
+    }
+}
+
+#renew .menu .bottom_bnr .AIFUL2023031715 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#renew .menu .bottom_bnr .AIFUL2023031715 span {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+#renew .menu .AIFULCLS23032801 dt .AIFULCLS23032801__head {
+    pointer-events: none;
+    padding-left: 0;
+}
+
+#renew .menu .AIFULCLS23032801 dt .AIFULCLS23032801__head::before {
+    content: none;
+}
+
+@media screen and (max-width: 768px) {
+    #renew .menu .bottom_bnr .AIFUL2023031715 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: end;
+        padding-bottom: 2.6vw;
+    }
+
+    /* 2023/06/12 add str */
+    #renew .menu .bottom_bnr .AIFUL2023031715:nth-child(1),
+    #renew .menu .bottom_bnr .AIFUL2023031715:nth-child(2) {
+        padding-bottom: 1vw;
+    }
+
+    /* 2023/06/12 add end */
+    #renew .menu .bottom_bnr .AIFUL2023031715 span {
+        margin-top: 0.5vw
+    }
+
+    #renew .menu .AIFULCLS23032801 {
+        margin-top: 6vw;
+    }
+
+    #renew .menu .text_link a {
+        padding: 0 5px;
+    }
+
+    /* 2024.12.16追加 start */
+    #renew .menu_column dl dt a:not(.menu_column_faq a) {
+        display: inline-block;
+    }
+
+    #renew .menu_column dl dt a:not(.menu_column_faq a, .open_trigger) {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* 2023.6.1追加 start */
+    #renew .menu_column dl dt .AIFUL20230601002 {
+        position: absolute;
+        right: 0.53333vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 3.73333vw;
+        height: 3.73333vw;
+        padding: 0;
+        background: url(/assets/images/nav/circle_arrow_red.svg);
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
+        -webkit-transition: -webkit-transform 0.3s ease;
+        transition: -webkit-transform 0.3s ease;
+        -moz-transition: transform 0.3s ease, -moz-transform 0.3s ease;
+        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, -webkit-transform 0.3s ease, -moz-transform 0.3s ease;
+    }
+
+    /* 2023.6.1追加 end */
+    /* 2023/06/13 add  str */
+    #renew .menu .bottom_bnr .AIFUL2023031715 .AIFULCL2023061301 {
+        width: 25%;
+    }
+
+    /* 2023/06/13 add  end */
+    /* 2024/07/01 add start */
+    #renew p.AIFULCLS20240705002 {
+        visibility: hidden;
+    }
+
+    #renew header p img {
+        width: 32vw;
+        height: 14vw;
+    }
+
+    #renew header .inner h1.AIFULCLS20240705002 {
+        visibility: hidden;
+    }
+
+    /* 2024/07/01 add end */
+
+    #renew .inner .inner_logo {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #renew .menu .text_link a {
+        padding: 0 5px;
+    }
+
+    /* 2023.6.1追加 start */
+    #renew .menu_column dl.AIFUL20230601001 dt {
+        border-bottom: none;
+    }
+
+    /* 2023.6.1追加 end */
+    /* 2023/06/13 add str */
+    #renew .menu .bottom_bnr .AIFUL2023031715 .AIFULCL2023061301 {
+        width: 15%;
+    }
+
+    /* 2023/06/13 add  end */
+    /* 2024/07/01 add start */
+    #renew header .inner p img {
+        height: 75px;
+    }
+
+    #renew .inner .inner_logo{
+        margin-top: -10px;
+    }
+
+    #renew .inner p.AIFULCLS20240705002 span {
+        font-size: 1.3rem;
+        color: #4f4f4f;
+    }
+
+    #renew .inner h1.AIFULCLS20240705002 span {
+        font-size: 1.3rem;
+        color: #4f4f4f;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #renew header .inner .links {
+        margin-left: 70px;
+    }
+}
+
+/* Headernav内の<style>  start */
+@media screen and (max-width: 768px) {
+    #renew .menu_column_faq span {
+        color: #fff;
+        border-radius: 50%;
+        font-family: 'Swiss 721';
+        background-color: #ce0023;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5.33333vw;
+        height: 5.33333vw;
+        font-size: 3.46667vw;
+        margin-right: 2.93333vw;
+        flex-shrink: 0;
+        margin-top: 0.53333vw;
+        flex-shrink: 0;
+    }
+
+    .menu_column_faq a:before {
+        content: "";
+        display: block;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        width: 1.86667vw;
+        height: 2.4vw;
+        background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+        -moz-background-size: 1.86667vw 2.4vw;
+        background-size: 1.86667vw 2.4vw;
+        right: 1.9vw;
+    }
+
+    #renew .menu_center dl a {
+        display: flex;
+    }
+
+    #renew dl#faq_typesquare_option {
+        background: #F0F4F7;
+        border: none;
+        margin-bottom: 1.3vw;
+    }
+}
+
+#renew .menu .bottom_bnr .AIFUL2023031715 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#renew .menu .bottom_bnr .AIFUL2023031715 span {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+#renew .menu .AIFULCLS23032801 dt .AIFULCLS23032801__head {
+    pointer-events: none;
+    padding-left: 0;
+}
+
+#renew .menu .AIFULCLS23032801 dt .AIFULCLS23032801__head::before {
+    content: none;
+}
+
+@media screen and (max-width: 768px) {
+    #renew .menu .bottom_bnr .AIFUL2023031715 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: end;
+        padding-bottom: 2.6vw;
+    }
+
+    /* 2023/06/12 add str */
+    #renew .menu .bottom_bnr .AIFUL2023031715:nth-child(1),
+    #renew .menu .bottom_bnr .AIFUL2023031715:nth-child(2) {
+        padding-bottom: 1vw;
+    }
+
+    /* 2023/06/12 add end */
+    #renew .menu .bottom_bnr .AIFUL2023031715 span {
+        margin-top: 0.5vw
+    }
+
+    #renew .menu .AIFULCLS23032801 {
+        margin-top: 6vw;
+    }
+
+    #renew .menu .text_link a {
+        padding: 0 5px;
+    }
+
+    /* 2024.12.16追加 start */
+    #renew .menu_column dl dt a:not(.menu_column_faq a) {
+        display: inline-block;
+    }
+
+    #renew .menu_column dl dt a:not(.menu_column_faq a, .open_trigger) {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* 2023.6.1追加 start */
+    #renew .menu_column dl dt .AIFUL20230601002 {
+        position: absolute;
+        right: 0.53333vw;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 3.73333vw;
+        height: 3.73333vw;
+        padding: 0;
+        background: url(/assets/images/nav/circle_arrow_red.svg);
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
+        -webkit-transition: -webkit-transform 0.3s ease;
+        transition: -webkit-transform 0.3s ease;
+        -moz-transition: transform 0.3s ease, -moz-transform 0.3s ease;
+        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, -webkit-transform 0.3s ease, -moz-transform 0.3s ease;
+    }
+
+    /* 2023.6.1追加 end */
+    /* 2023/06/13 add  str */
+    #renew .menu .bottom_bnr .AIFUL2023031715 .AIFULCL2023061301 {
+        width: 25%;
+    }
+
+    /* 2023/06/13 add  end */
+    /* 2024/07/01 add start */
+    #renew p.AIFULCLS20240705002 {
+        visibility: hidden;
+    }
+
+    #renew header p img {
+        width: 32vw;
+        height: 14vw;
+    }
+
+    #renew header .inner h1.AIFULCLS20240705002 {
+        visibility: hidden;
+    }
+
+    /* 2024/07/01 add end */
+
+    #renew .inner .inner_logo {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #renew .menu .text_link a {
+        padding: 0 5px;
+    }
+
+    /* 2023.6.1追加 start */
+    #renew .menu_column dl.AIFUL20230601001 dt {
+        border-bottom: none;
+    }
+
+    /* 2023.6.1追加 end */
+    /* 2023/06/13 add str */
+    #renew .menu .bottom_bnr .AIFUL2023031715 .AIFULCL2023061301 {
+        width: 15%;
+    }
+
+    /* 2023/06/13 add  end */
+    /* 2024/07/01 add start */
+    #renew header .inner p img {
+        height: 75px;
+    }
+
+    #renew .inner .inner_logo{
+        margin-top: -10px;
+    }
+
+    #renew .inner p.AIFULCLS20240705002 span {
+        font-size: 1.3rem;
+        color: #4f4f4f;
+    }
+
+    #renew .inner h1.AIFULCLS20240705002 span {
+        font-size: 1.3rem;
+        color: #4f4f4f;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #renew header .inner .links {
+        margin-left: 70px;
+    }
+}
+
+/* 2024/07/01 add end */
+/* Headernav内の<style>  end */
+
+#renew .menu {
+  display: none; /* 初期状態では非表示 */
+  /* その他のスタイル */
+}
+
+#renew .menu.open {
+  display: block; /* openクラスがついたら表示 */
+  /* その他のスタイル */
+}
+
+.nav_close_icon {
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000;
+}
+
+.menu_search {
+    margin: 10px 0;
+    input {
+    padding: 5px;
+    font-size: 14px;
+    }
+    button {
+    padding: 5px;
+    font-size: 14px;
+    }
+}

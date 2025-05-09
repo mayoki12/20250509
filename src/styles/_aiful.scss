@@ -1,0 +1,153 @@
+@use 'variables' as variable;
+
+html {
+	font-size: 10px;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+body {
+	font-family: 'Nunito', sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block;
+}
+img {
+	border-style: none;
+	width: 100%;
+}
+#renew{
+	.sp {
+		@media (min-width: variable.$aiful_breakpoint_medium2) {
+			display: none;
+		}
+		@media (max-width: variable.$aiful_breakpoint_medium) {
+			display: block;
+		}
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #000;
+	}
+	h1, h2, h3, h4, h5, h6, div, p, ul, ol, li, dl, dt, dd, img, nav {
+		margin: 0;
+    padding: 0;
+	}
+	td, th, input, textarea, li, p, span, a {
+		color: #000;
+    font-family: "Swiss 721", "Gothic Medium BBB", "source-han-sans-japanese", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-feature-settings: "palt";
+		@media (max-width: variable.$aiful_breakpoint_medium) {
+			font-size: 4vw;
+		}
+	}
+	ul, ol, li {
+		list-style: none;
+	}
+	a {
+		color: #000;
+		text-decoration: none;
+		&:link, &:visited, &:active, &:hover, &:hover img {
+			color: #000;
+			text-decoration: none;
+		}
+	}
+	img {
+		vertical-align: bottom;
+	}
+	.breadcrumb {
+		background-color: #f0f4f7;
+		padding: 27px 0;
+		@media (max-width: variable.$aiful_breakpoint_medium) {
+			padding: 3.46667vw 0;
+		}
+		ol {
+			margin: 0 auto;
+			box-sizing: border-box;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			@media (min-width: variable.$aiful_breakpoint_medium2) {
+				max-width: 1440px;
+				padding: 0 32px;
+			}
+			@media (max-width: variable.$aiful_breakpoint_medium) {
+				padding: 0 5.06667vw;
+			}
+			li {
+				display: inline;
+				overflow: hidden;
+				font-family: "Midashi Go MB1";
+				@media (min-width: variable.$aiful_breakpoint_medium2) {
+					font-size: 1.5rem;
+				}
+				@media (max-width: variable.$aiful_breakpoint_medium) {
+					font-size: 3.46667vw;
+				}
+				a {
+					text-decoration: none;
+					font-family: "Midashi Go MB1";
+					@media (min-width: variable.$aiful_breakpoint_medium2) {
+						font-size: inherit;
+						position: relative;
+					}
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						font-size: inherit;
+					}
+					img {
+						vertical-align: middle;
+						@media (min-width: variable.$aiful_breakpoint_medium2) {
+							margin-top: -2px;
+						}
+						@media (max-width: variable.$aiful_breakpoint_medium) {
+							margin-top: -0.53333vw;
+						}
+					}
+				}
+			}
+			li + li {
+				@media (min-width: variable.$aiful_breakpoint_medium2) {
+					margin-left: 14px;
+				}
+				@media (max-width: variable.$aiful_breakpoint_medium) {
+					margin-left: 2.93333vw;
+				}
+				&:before {
+					content: "";
+					display: inline-block;
+					background: url(/assets/images/common/red_arrow.svg) no-repeat left top;
+					@media (min-width: variable.$aiful_breakpoint_medium2) {
+						margin-right: 14px;
+						width: 8px;
+						height: 10px;
+					}
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						margin-right: 2.93333vw;
+						width: 1.73333vw;
+						height: 2.13333vw;
+					}
+				}
+			}
+		}
+	}
+	.container {
+		padding-bottom: 150px;
+		@media (max-width: variable.$aiful_breakpoint_medium) {
+			padding-top: 16vw;
+			padding-bottom: 17.33333vw;
+		}
+		.content {
+			@media (min-width: variable.$aiful_breakpoint_medium2) {
+				display: flex;
+				justify-content: space-between;
+				max-width: 1440px;
+				margin: 0 auto;
+				padding: 60px 58px 0;
+				box-sizing: border-box;
+			}
+			@media (max-width: variable.$aiful_breakpoint_medium) {
+				padding: 9.33333vw 2.66667vw 0;
+			}
+		}
+	}
+}

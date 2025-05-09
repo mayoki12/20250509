@@ -1,0 +1,26 @@
+@use '@/styles/_variables' as variable;
+
+.accordion {
+	@media (min-width: variable.$aiful_breakpoint_medium2) {
+		border: 3px solid #dfe8ef;
+		border-radius: 13px;
+	}
+}
+
+.accordion_ttl {
+	@media (min-width: variable.$aiful_breakpoint_medium2) {
+	height: 100px;
+	box-sizing: border-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: start;
+	justify-content: flex-start;
+	padding: 0 53px;
+	font-weight: 700;
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+	font-family: 'Midashi Go MB1';
+	}
+}

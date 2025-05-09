@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// ============================================
+// 変数定義
+// ============================================
+
+// Light theme
+// $color-background-light: #ffffff;
+// $color-foreground-light: #171717;
+
+// Dark theme
+// $color-background-dark: #0a0a0a;
+// $color-foreground-dark: #ededed;
+
+// Fonts
+// $font-sans: Arial, Helvetica, sans-serif;
+// $font-mono: var(--font-geist-mono); // Google Fonts 読み込み済みを想定
+
+// ============================================
+// CSSカスタムプロパティ登録（light）
+// ============================================
+
+// :root {
+//   --background: #{$color-background-light};
+//   --foreground: #{$color-foreground-light};
+
+//   --color-background: var(--background);
+//   --color-foreground: var(--foreground);
+//   --font-sans: #{$font-sans};
+//   --font-mono: #{$font-mono};
+// }
+
+// ============================================
+// ダークモード用
+// ============================================
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --background: #{$color-background-dark};
+//     --foreground: #{$color-foreground-dark};
+//   }
+// }
+
+// ============================================
+// ベーススタイル
+// ============================================
+
+// body {
+//   background: var(--background);
+//   color: var(--foreground);
+//   font-family: var(--font-sans);
+// }

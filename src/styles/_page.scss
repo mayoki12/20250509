@@ -1,0 +1,304 @@
+@use 'variables' as variable;
+
+#renew {
+	.container {
+		.breadcrumb {
+
+		}
+		.content {
+			main {
+				h1 {
+					font-size: 5.5rem;
+					line-height: 1.2;
+					font-family: 'Midashi Go MB31';
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						font-weight: bold;
+						margin-bottom: 1em;
+						font-size: 8vw;
+					}
+				}
+				h1.lead {
+					margin-bottom: 20px;
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						margin-bottom: 3.2vw;
+					}
+				}
+				h1.lead + p {
+					margin-top: 26px;
+					margin-bottom: 50px;
+					line-height: 1.7;
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						margin-bottom: 6vw;
+					}
+				}
+				h2 {
+					font-size: 3.3rem;
+					padding-left: 24px;
+					line-height: 1.2;
+					position: relative;
+					font-family: 'Swiss 721', 'Midashi Go MB1';
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						font-size: 5.6vw;
+						padding-left: 5.33333vw;
+						position: relative;
+						margin: 1em 0;
+						line-height: 1.4;
+					}
+					&::before {
+						position: absolute;
+						left: 0;
+						content: "";
+						display: block;
+						width: 6px;
+						top: 4%;
+						height: 100%;
+						background-color: #ce0023;
+						border-radius: 3px;
+						@media (max-width: variable.$aiful_breakpoint_medium) {
+							width: 1.06667vw;
+							border-radius: 1.6vw;
+						}
+					}
+				}
+				p {
+					margin-bottom: 1em;
+				}
+				img {
+					max-width: 100%;
+				}
+				.row {
+					display: flex;
+					-webkit-box-pack: justify;
+					justify-content: space-between;
+					flex-wrap: wrap;
+					-webkit-box-align: stretch;
+					align-items: stretch;
+					@media (min-width: variable.$aiful_breakpoint_medium2) {					
+						-webkit-box-pack: start;
+						justify-content: flex-start;
+						margin-top: -30px;
+					}
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						width: calc(100% + 5.33333vw);
+						margin-left: -2.66667vw;
+						margin-top: -4vw;
+					}
+				}
+				.row_pc {
+					display: flex;
+					justify-content: space-between;
+					-webkit-box-pack: justify;
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						display: block;
+					}
+				}
+				section {
+					padding-bottom: 76px;
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						padding-bottom: 7.46667vw;
+					}
+				}
+				.title_link {
+					flex-wrap: wrap;
+					-webkit-box-pack: start;
+					justify-content: flex-start;
+					-webkit-box-align: stretch;
+					align-items: stretch;
+					margin-top: -30px;
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						width: calc(100% + 5.33333vw);
+						margin-left: -2.66667vw;
+						margin-top: -4vw;
+						justify-content: space-between;
+					}
+					a {
+						@media (min-width: variable.$aiful_breakpoint_medium2) {
+							width: calc(95% / 3);
+							padding: 40px 30px 30px;
+							margin-left: 2.4%;
+							margin-top: 30px;
+							box-sizing: border-box;
+							min-height: 262px;
+							display: flex;
+							position: relative;
+							-webkit-box-align: start;
+							align-items: flex-start;
+							-webkit-box-pack: center;
+							justify-content: center;
+							-webkit-box-orient: vertical;
+							-webkit-box-direction: normal;
+							flex-direction: column;
+							transition: transform 0.2s cubic-bezier(0.23, 1, 0.58, 1), -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.58, 1), -moz-transform 0.2s cubic-bezier(0.23, 1, 0.58, 1);
+							background: url(/assets/images/common/hub_link.svg) no-repeat left top;
+							background-size: 100% 100%;
+						}
+						@media (max-width: variable.$aiful_breakpoint_medium) {
+							background: url(/assets/images/common/hub_link_sp.svg) no-repeat left top;
+							background-size: 100% 100%;
+							width: 45.33333vw;
+							padding: 6.66667vw 3.73333vw;
+							margin-top: 4vw;
+							box-sizing: border-box;
+							height: 42.66667vw;
+							display: flex;
+							-webkit-box-align: start;
+							align-items: flex-start;
+							-webkit-box-pack: center;
+							justify-content: center;
+							-webkit-box-orient: vertical;
+							-webkit-box-direction: normal;
+							flex-direction: column;
+						}
+						&:hover {
+						@media (min-width: variable.$aiful_breakpoint_medium2) {
+							transform: scale(1.02);
+							}
+							&::after {
+								@media (min-width: variable.$aiful_breakpoint_medium2) {
+									opacity: 1;
+								}
+							}
+						}
+						&::after {
+							@media (min-width: variable.$aiful_breakpoint_medium2) {
+								content: "";
+								display: block;
+								width: 100%;
+								height: 100%;
+								position: absolute;
+								background-image: url(/assets/images/common/hub_link_red.svg);
+								background-size: 100% 100%;
+								left: 0;
+								top: 0;
+								opacity: 0;
+								transition: opacity 0.3s cubic-bezier(0.23, 1, 0.58, 1);
+							}
+						}
+						.ttl {
+							font-size: 33px;
+							line-height: 1.2;
+							padding-left: 45px;
+							position: relative;
+							margin-bottom: 16px !important;
+							font-family: 'Midashi Go MB1';
+							@media (max-width: variable.$aiful_breakpoint_medium) {
+								font-size: 4vw;
+								margin-bottom: 0.5em !important;
+								padding-left: 5.6vw;
+							}
+							&:before {
+								@media (min-width: variable.$aiful_breakpoint_medium2) {
+									width: 36px;
+									height: 36px;
+									margin-right: 8px;
+									margin-top: 2px;
+									background: url(/assets/images/common/white_arrow.svg) no-repeat center center #ce0023;
+									background-size: 11px 14px;
+									display: block;
+									position: absolute;
+									content: "";
+									border-radius: 50%;
+									left: 0;
+								}
+								@media (max-width: variable.$aiful_breakpoint_medium) {
+									width: 4.26667vw;
+									height: 4.26667vw;
+									margin-right: 1.33333vw;
+									background: url(/assets/images/common/white_arrow.svg) no-repeat center center #ce0023;
+									background-size: 1.2vw 1.6vw;
+									display: block;
+									content: "";
+									border-radius: 50%;
+									margin-top: 0.53333vw;
+									position: absolute;
+									left: 0;
+								}
+							}
+						}
+						&:nth-child(2n + 1) {
+							@media (max-width: variable.$aiful_breakpoint_medium) {
+								margin-left: 0;
+							}
+						}
+						&:nth-child(3n + 1) {
+							@media (min-width: variable.$aiful_breakpoint_medium2) {
+								margin-left: 0;
+							}
+						}
+						p {
+							max-width: 100%;
+							box-sizing: border-box;
+						}
+					}
+				}
+				.btn_arr {
+					@media (min-width: variable.$aiful_breakpoint_medium2) {
+						text-align: center;
+						font-size: 1.6rem;
+						display: inline-block;
+						padding: 17px 84px 17px 84px;
+						border: 3px solid #dfe8ef;
+						border-radius: 30px;
+						text-decoration: none;
+						position: relative;
+						line-height: 1;
+						margin: 1em 0 2em;
+						transition: border-color 0.3s ease, transform 0.2s cubic-bezier(0.23, 1, 0.58, 1), -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.58, 1), -moz-transform 0.2s cubic-bezier(0.23, 1, 0.58, 1);
+						font-family: 'Midashi Go MB1';
+					}
+					@media (max-width: variable.$aiful_breakpoint_medium) {
+						text-align: center;
+						box-sizing: border-box;
+						display: block;
+						padding: 4vw;
+						padding-right: 6.13333vw;
+						border-radius: 6.4vw;
+						border: 0.53333vw solid #dfe8ef;
+						text-decoration: none;
+						line-height: 1;
+						max-width: 58.66667vw;
+						margin: 8vw auto;
+						position: relative;
+						font-family: 'Midashi Go MB1';
+						font-size: 3.06667vw;
+					}
+					&::before {
+						@media (min-width: variable.$aiful_breakpoint_medium2) {
+						content: "";
+						display: block;
+						position: absolute;
+						width: 11px;
+						height: 14px;
+						background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+						top: 0;
+						bottom: 0;
+						margin: auto;
+						right: 24px;
+						transition: right 0.3s ease;
+						}
+						@media (max-width: variable.$aiful_breakpoint_medium) {
+							content: "";
+							display: block;
+							position: absolute;
+							width: 1.73333vw;
+							height: 2vw;
+							background: url(/assets/images/common/red_arrow.svg) no-repeat left center;
+							background-size: 1.73333vw 2vw;
+							top: 0;
+							bottom: 0;
+							margin: auto;
+							right: 5.33333vw;
+						}
+					}
+					&:hover {
+						@media (min-width: variable.$aiful_breakpoint_medium2) {
+							border-color: #ce0023;
+							transform: scale(1.05);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
